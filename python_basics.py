@@ -65,11 +65,11 @@ decoded_sequence = "".join(decoded_characters)
 print(decoded_sequence)
 
 def encode(text,char_to_id):
-#def -> creates new method
+#def -> creates a new function
     token_ids = []
     for character in text:
         token_id = char_to_id[character]
-        token_ids.append(token_id)
+        token_ids.append(token_id)      
     return token_ids
 
 def decode(token_ids, id_to_char):
