@@ -20,18 +20,18 @@ print(f"Sequence in lowercase: {sequence.lower()}")
 for nucleotide in sequence:
     print(nucleotide)
 #for loop in python
-#단어를 글자별로 나누기
+#deviding sequence per letter
 
 nucleotides = list(sequence)
 print(nucleotides)
 #creating a list with nucleotides
-#그걸 리스트화 시키기
+#making it a list
 
 vocabulary = sorted(set(sequence))
 print(vocabulary)
 #set-> removes repetited elements, but unsorted
 #sorted -> sorts the set in alphabetical order
-#중복되는 값 제거 + 알파벳 순서 정렬
+#Removing repetited values + getting them in alphabetical order
 
 char_to_id = {}
 #creating dictionary(Datatype that has keys and values like map)
